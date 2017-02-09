@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Namma Bangalore"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="36sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/hMonuments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="HistoricalMonuments"
+        android:padding="16dp"
+        android:text="@string/historicalmonument"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Museums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="Museums"
+        android:padding="16dp"
+        android:text="@string/museum"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/itParks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="ITParks"
+        android:padding="16dp"
+        android:text="@string/itpark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/aParks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="AmusementParks"
+        android:padding="16dp"
+        android:text="@string/amusementpark"
+        android:textSize="24sp" />
+
+</LinearLayout>
